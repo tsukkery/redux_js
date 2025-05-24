@@ -1,9 +1,9 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { increment, decrement } from '../../redux/CartSlice';
-import './CartItem.css'
+import './Cart.css'
 
-function CartItem({ item }) {
+function Cart({ item }) {
     const dispatch = useDispatch();
 
     return (
@@ -18,4 +18,4 @@ function CartItem({ item }) {
     )
 }
 
-export default CartItem;
+export default Cart;

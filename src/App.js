@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
-import CartItem from './components/CartItem/CartItem';
-import AddProduct from './components/AddProduct/AddProduct';
+import CartItem from './components/Cart/Cart';
+import AddProduct from './components/add_product/AddProduct';
 import './App.css'
 
 function App() {
